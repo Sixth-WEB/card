@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+	<meta name="keywords" content="" />
+	<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+	<meta content="telephone=no" name="format-detection" />
+	<meta content="yes" name="apple-mobile-web-app-capable" />
+	<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+    <title>一铭软件</title>
+    
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/owl.theme.css">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" href="css/index.css">
+    
+    
+</head>
+<body ontouchstart="play()">
+	
+	<div class="background"></div><!--悬浮遮罩层-->
+	<img src="img/man.jpg"  class="man"/><!--背景人物图-->
+	<img src="img/code.jpg" class="code" data-toggle="modal" data-target="#myModal1"/><!--微名片分享按钮-->
+	<div class="funIco move" onclick="controlVoice(this)"><!--音频按钮-->
+		<span class="bgimage ico1"></span>
+	</div>
+	<!--音频-->
+	<audio src="img/33.mp3" id="audio" style="display: none;" controls="controls" preload="auto" autoplay loop ></audio>
+	<!--音频end-->
+	<!--轮播图-->	
+	<div id="owl-demo" class="owl-carousel">
+		<!--<a class="item"><img src="img/gui.jpg" alt=""></a>
+		<a class="item"><img src="img/owl2.jpg" alt=""></a>
+		<a class="item"><img src="img/owl3.jpg" alt=""></a>
+		<a class="item"><img src="img/owl4.jpg" alt=""></a>
+		<a class="item"><img src="img/owl5.jpg" alt=""></a>-->
+	</div>
+	<!--轮播图end-->	
+	<!--内容开始-->
+	<div class="container content">
+	<div class="row clearfix">
+		<div class="col-md-12 column" style="padding: 0px;">
+			
+			<!--个人信息开始-->
+			<section class="massege" >
+				<img src="img/abm.png" class="abm" />
+				
+				<div class="name color">王璐璐</div>
+				<div class="color two"><span class="company">一铭软件有限公司</span>--<span class="job">前端开发工程师</span></div>
+				<ul class="me_ul">
+					<li >
+						<i class="fa fa-weixin fa-fw"></i><a data-toggle="modal" data-target="#myModal">六哥<span >加微信</span></a>
+					</li>
+					<li>
+						<i class="fa fa-mobile fa-fw "></i><a >13036830277</a>
+					</li>
+					<li>
+						<i class="fa fa-qq fa-fw "></i><a >836583554</a>
+					</li>
+					<li>
+						<i class="fa fa-envelope fa-fw"></i><a >836583554@qq.com</a>
+					</li>
+					<li>
+						<i class="fa fa-link fa-fw"></i><a >www.baidu.com</a>
+					</li>
+					<li>
+						<i class="fa fa-paper-plane fa-fw"></i><a href="#allmap" class="mapHref">新城国际<span>地图</span></a>
+					</li>
+					
+				</ul>
+			</section>
+			<!--个人信息结束-->
+			<!--四角框内容开始-->
+			<section  class="editor">
+				<fieldset class="fieldsetStyle" >
+					<section class="section1" >
+						<section class="section1_1">							
+						</section>
+						
+						<section class="section1_2" >
+							
+						</section>
+						<section class="section1_3"  ></section>
+					</section>
+					<section class="section2" >
+						<section class="section2_1" placeholder="四角宽边框的样式" >
+							<div class="zIndex easy">
+								公司简介：<br />
+						        gjio-ghfdigndfwogvjfdwgi-odwfg
+							</div>
+						
+						</section>
+					</section>
+					<section class="section3" >
+						<section class="section3_1" >							
+						
+						</section>
+						
+						<section  class="section3_2"  >	
+						</section>					
+					</section>
+				</fieldset>
+			</section>
+			<section  class="editor">
+				<fieldset class="fieldsetStyle" >
+					<section class="section1" >
+						<section class="section1_1">							
+						</section>
+						
+						<section class="section1_2" >
+							
+						</section>
+						<section class="section1_3"  ></section>
+					</section>
+					<section class="section2" >
+						<section class="section2_1" placeholder="四角宽边框的样式" >
+							<img src="img/gui.jpg" class="editor_img"/>
+						</section>
+					</section>
+					<section class="section3" >
+						<section class="section3_1" >							
+						
+						</section>
+						
+						<section  class="section3_2"  >	
+						</section>					
+					</section>
+				</fieldset>
+			</section>
+			<section  class="editor">
+				<fieldset class="fieldsetStyle" >
+					<section class="section1" >
+						<section class="section1_1">							
+						</section>
+						
+						<section class="section1_2" >
+							
+						</section>
+						<section class="section1_3"  ></section>
+					</section>
+					<section class="section2" >
+						<section class="section2_1" placeholder="四角宽边框的样式" >
+							<img src="img/gui.jpg" class="editor_img"/>
+						</section>
+					</section>
+					<section class="section3" >
+						<section class="section3_1" >							
+						
+						</section>
+						
+						<section  class="section3_2"  >	
+						</section>					
+					</section>
+				</fieldset>
+			</section>
+			<section  class="editor">
+				<fieldset class="fieldsetStyle" >
+					<section class="section1" >
+						<section class="section1_1">							
+						</section>
+						
+						<section class="section1_2" >
+							
+						</section>
+						<section class="section1_3"  ></section>
+					</section>
+					<section class="section2" >
+						<section class="section2_1" placeholder="四角宽边框的样式" >
+							<img src="img/gui.jpg" class="editor_img"/>
+						</section>
+					</section>
+					<section class="section3" >
+						<section class="section3_1" >							
+						
+						</section>
+						
+						<section  class="section3_2"  >	
+						</section>					
+					</section>
+				</fieldset>
+			</section>
+			<section  class="editor">
+				<fieldset class="fieldsetStyle" >
+					<section class="section1" >
+						<section class="section1_1">							
+						</section>
+						
+						<section class="section1_2" >
+							
+						</section>
+						<section class="section1_3"  ></section>
+					</section>
+					<section class="section2" >
+						<section class="section2_1" placeholder="四角宽边框的样式" >
+							<img src="img/gui.jpg" class="editor_img"/>
+						</section>
+					</section>
+					<section class="section3" >
+						<section class="section3_1" >							
+						
+						</section>
+						
+						<section  class="section3_2"  >	
+						</section>					
+					</section>
+				</fieldset>
+			</section>
+			<!--四角框内容结束-->
+			<!--留言咨询开始-->
+			<section class="text">
+				<div class="text_top">
+					留言咨询
+				</div>
+				
+				<form class="form_text" onsubmit="return form_submit();">
+					<input type="text" placeholder="请输入姓名" class="input_text userName" name="userName"/>
+					<input type="text" placeholder="请输入联系电话" class="input_text telText" name="tel"/>
+					<textarea placeholder="请输入内容" class="input_text input_content" name="content"></textarea>
+					
+					<input type="submit" value="提交" class="input_submit" />
+					<div class="formtipS">提交成功，我将及时联系您！</div>
+					<div class="formtipE">请完整填写信息^_^</div>
+				</form>
+				<div class="text_bottom"></div>
+			</section>
+			<!--留言咨询结束-->
+			<!--地图开始-->
+			<div class="map">
+                <div data-map-pos-x = "108.373051" data-map-pos-y = "22.81885" data-map-text="新城国际" data-map-height="256" id="data-map" style="display:none">                	
+                </div>
+   		        <a class="map-btn" href="http://api.map.baidu.com/marker?location=22.81885,108.373051&title=新城国际&content=新城国际&output=html">导航</a>
+                <div class="allmap" style="height:250px;" id="allmap"></div>          
+            </div>
+            <!--地图结束-->
+		</div>
+	</div>
+</div>
+<!--内容结束-->
+<!--底部控制菜单开始-->
+<section class="section_bottom">
+	<div class="bottom_div">
+		<i class="fa fa-phone"></i><a href="tel:17377141883" ><span class="span_style">拨打电话</span></a>
+	</div>
+	<div class="bottom_div weixin" data-toggle="modal" data-target="#myModal">
+		<i class="fa fa-weixin fa-fw"></i><a href="javascript:;" ><span class="span_style">加微信</span></a>
+	</div>
+	<div class="bottom_div" data-toggle="modal" data-target="#myModal2">
+		<i class="fa fa-address-book"></i><a href="javascript:;" ><span class="span_style">导入通讯录</span></a>
+	</div>
+</section>
+<!--底部控制菜单结束-->
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript" src="js/bootstrap.js"></script>
+<script type="text/javascript" src="js/owl.carousel.js"></script>
+<script type="text/javascript">
+	$(function(){
+		//lazy_img();	
+		var scrollHeight = $(document).height();      
+		$(".background").height(scrollHeight-300+"px");
+		_init_map();
+		owl();
+		    $('#owl-demo').owlCarousel({
+		        items: 1,
+		        autoPlay: true,
+		        touchDrag:true
+		    });
+		
+				
+	});
+	//加载轮播图
+	function owl(){
+		var imgLength = 6;
+		for(var i=0;i<imgLength;i++){
+			var src = "img/owl"+(i+1)+".jpg"
+			var imgContent = '<a class="item"><img src="'+src+'" alt=""></a>';
+			$("#owl-demo").append(imgContent);
+		}
+	}
+	//滑动屏幕，音乐播放
+	function play(){	
+		if($(".funIco").hasClass("move")){
+			audio.play();
+		}
+		
+	}
+	//控制音乐的暂停和播放
+	function controlVoice(ev){
+		if($(ev).hasClass("move")){
+			$(ev).removeClass("move");
+			audio.pause();
+		}
+		else{
+			$(ev).addClass("move");
+			audio.play();
+		}
+		
+	}	
+	//form提交
+	function form_submit(){
+		var telText = $(".telText").val();
+		var userName = $(".userName").val();
+		var input_content = $(".input_content").val();
+		if(!userName || !telText || !input_content){//判断信息是否填写完整
+			$(".formtipE").show();
+			$(".formtipS").hide();
+			return false;
+		}
+		else{			
+	        $.ajax({
+	            type: "POST",
+	            url: "index.html",
+	            data : {userName:userName, telText:telText, input_content:input_content},
+	            success: function(msg) {
+	            }
+	        });
+	        $(".formtipS").show();
+			$(".formtipE").hide();
+			$(".telText").val("");
+			$(".userName").val("");
+			$(".input_content").val("");
+	        return false;			
+		}
+	}
+	//点击地图按钮滑动到地图详情
+	$(".mapHref").click(function () {
+	    $("html, body").animate({scrollTop: $($(this).attr("href")).offset().top -20+ "px"}, 1000);
+	    return false;
+	});
+</script>
+<!--map-->
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=tf8LcjCjdtkAMPfq0t9c4dlE"></script>
+<script type="text/javascript" src="js/map.js"></script> 
+<!--map-->
+
+<!-- 微信二维码控件 -->    
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					长按二维码加我为好友
+				</h4>
+			</div>
+			<div class="modal-body" data-info="http://www.33cm.cn/wap/vcard/12056">
+				<img src="img/showwxqrcode.png" class="modal_weixin"/>
+			</div>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<!-- 微信二维码展示控件 end-->
+
+<!-- 微信名片 -->    
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					您好，这是我的微名片！
+				</h4>
+			</div>
+			<div class="modal-body">
+				<img src="img/card.png" class="modal_weixin"/>
+			</div>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<!-- 微信名片 end-->
+
+<!-- 导入通讯录 -->    
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+					&times;
+				</button>
+				<h4 class="modal-title" id="myModalLabel">
+					您好，请长按选择识别二维码<br/>即可保存到通讯录！
+				</h4>
+			</div>
+			<div class="modal-body">
+				<img src="img/address.png" class="modal_weixin"/>
+			</div>
+			
+		</div><!-- /.modal-content -->
+	</div><!-- /.modal -->
+</div>
+<!-- 导入通讯录 end-->
+</body>
+</html>
